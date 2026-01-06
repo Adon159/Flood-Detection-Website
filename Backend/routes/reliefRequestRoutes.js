@@ -10,7 +10,7 @@ const {
   reliefStatusEmail,
   volunteerAssignmentVictimEmail,
   volunteerAssignmentVolunteerEmail
-} = require("../utils/sendemail");
+} = require("../utils/sendEmail");
 
 /* =========================================================
    SUBMIT RELIEF REQUEST (KEEP SAME)
