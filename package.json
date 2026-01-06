@@ -1,0 +1,16 @@
+{
+    "name": "flood-detection-website",
+    "version": "1.0.0",
+    "description": "Full stack flood detection application",
+    "main": "Backend/server.js",
+    "scripts": {
+        "start": "node Backend/server.js",
+        "build": "npm install && npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix Backend"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}
