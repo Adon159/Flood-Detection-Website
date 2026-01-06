@@ -7,7 +7,7 @@ const {
   sendEmail,
   donationCreatedEmail,
   donationStatusEmail
-} = require("../utils/sendemail");
+} = require("../utils/sendEmail");
 
 const getUserIdFromToken = (req) => {
   const token = req.headers.authorization?.split(" ")[1];
